@@ -7,12 +7,11 @@ print("Welcome to the Magic 8 ball!")
 
 while True:
     question = input("Ask me a question: ")
-    print responses[randint(0, 7)]
+    print(responses[randint(0, 7)])
 
     while True:
         play = input("Would you like to play again? (Y/N) ")
-        print ""
-
+        print("")
         if play == "Y" or play == "y":
             continue
 

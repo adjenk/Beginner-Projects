@@ -17,3 +17,13 @@ pennies = float(input("Pennies: "))
 nickels = float(input("Nickels:" ))
 dimes = float(input("Dimes: "))
 quarters = float(input("Quarters: "))
+
+estimatedPennies = pennies / pennyWeight
+estimatedNickels = nickels / nickelWeight
+estimatedDimes = dimes / dimeWeight
+estimatedQuarters = quarters / quarterWeight
+
+print("Pennies: ", int(estimatedPennies))
+print("Nickels: ", int(estimatedNickels))
+print("Dimes: ", int(estimatedDimes))
+print("Quarters: ", int(estimatedQuarters))
